@@ -1,0 +1,17 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+//colors 
+$white: #fff;
+$black: #000;
+
+//family font
+$font-family:  'MidCenturySans', sans-serif;
+
+//grid
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1100px,
+  xl: 1200px,
+  xxl: 1400px
+);

@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'MidCenturySans';
+    src: url('MidCenturySans-BoldIt.woff2') format('woff2'),
+        url('../fonts/MidCenturySans-Bold/MidCenturySans-BoldIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MidCenturySans';
+    src: url('../fonts/MidCenturySans-Bold/MidCenturySans-Heavy.woff2') format('woff2'),
+        url('../fonts/MidCenturySans-Bold/MidCenturySans-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MidCenturySans';
+    src: url('../fonts/MidCenturySans-Bold/MidCenturySans-Bold.woff2') format('woff2'),
+        url('../fonts/MidCenturySans-Bold/MidCenturySans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MidCenturySans';
+    src: url('../fonts/MidCenturySans-Bold/MidCenturySans-Light.woff2') format('woff2'),
+        url('../fonts/MidCenturySans-Bold/MidCenturySans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MidCenturySans';
+    src: url('../fonts/MidCenturySans-Bold/MidCenturySans-HeavyIt.woff2') format('woff2'),
+        url('../fonts/MidCenturySans-Bold/MidCenturySans-HeavyIt.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MidCenturySans';
+    src: url('../fonts/MidCenturySans-Bold/MidCenturySans-Italic.woff2') format('woff2'),
+        url('../fonts/MidCenturySans-Bold/MidCenturySans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MidCenturySans';
+    src: url('../fonts/MidCenturySans-Bold/MidCenturySans-Thin.woff2') format('woff2'),
+        url('../fonts/MidCenturySans-Bold/MidCenturySans-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MidCenturySans';
+    src: url('../fonts/MidCenturySans-Bold/MidCenturySans-SmBoldIt.woff2') format('woff2'),
+        url('../fonts/MidCenturySans-Bold/MidCenturySans-SmBoldIt.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MidCenturySans';
+    src: url('../fonts/MidCenturySans-Bold/MidCenturySans-LightIt.woff2') format('woff2'),
+        url('../fonts/MidCenturySans-Bold/MidCenturySans-LightIt.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MidCenturySans';
+    src: url('../fonts/MidCenturySans-Bold/MidCenturySans-SmBold.woff2') format('woff2'),
+        url('../fonts/MidCenturySans-Bold/MidCenturySans-SmBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MidCenturySans';
+    src: url('../fonts/MidCenturySans-Bold/MidCenturySans-Regular.woff2') format('woff2'),
+        url('../fonts/MidCenturySans-Bold.MidCenturySans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MidCenturySans';
+    src: url('../fonts/MidCenturySans-Bold/MidCenturySans-XBoldIt.woff2') format('woff2'),
+        url('../fonts/MidCenturySans-Bold/MidCenturySans-XBoldIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MidCenturySans';
+    src: url('../fonts/MidCenturySans-Bold/MidCenturySans-XLight.woff2') format('woff2'),
+        url('../fonts/MidCenturySans-Bold/MidCenturySans-XLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MidCenturySans';
+    src: url('../fonts/MidCenturySans-Bold/MidCenturySans-XLightIt.woff2') format('woff2'),
+        url('../fonts/MidCenturySans-Bold/MidCenturySans-XLightIt.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MidCenturySans';
+    src: url('../fonts/MidCenturySans-Bold/MidCenturySans-ThinIt.woff2') format('woff2'),
+        url('../fonts/MidCenturySans-Bold/MidCenturySans-ThinIt.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MidCenturySans';
+    src: url('../fonts/MidCenturySans-Bold/MidCenturySans-XBold.woff2') format('woff2'),
+        url('../fonts/MidCenturySans-Bold/MidCenturySans-XBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,111 @@
+@import '../variable';
+
+header {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.5rem;
+
+        .nav-logo {
+            .logo {
+                width: 54%;
+            }
+        }
+
+        .menu-container {
+            .nav-menu {
+                position: fixed;
+                left: -100%;
+                top: 5rem;
+                flex-direction: column;
+                background-color: #fff;
+                width: 100%;
+                border-radius: 10px;
+                text-align: center;
+                transition: 0.3s;
+                box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+                z-index: 1;
+
+                @include media-breakpoint-up(lg) {
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: space-between;
+                  align-items: center;
+                  gap: 3rem;
+                  margin: 0;
+                  position: relative;
+                  left: 0;
+                  top: 0;
+                  box-shadow: none;
+                }
+
+                &.active {
+                    left: 0;
+                    right: 0;
+                    padding-left: 0;
+                }
+
+                .nav-item {
+                    margin: 2.5rem 0;
+                    list-style: none;
+
+                    .nav-link {
+                        font-size: 1rem;
+                        font-family: 'MidCenturySans', sans-serif;
+                        color: #000000;
+                        font-style: normal;
+
+                        &:hover {
+                            border-bottom: 2px dotted #000;
+                        }
+                        &:visited {
+                            border-bottom: 2px dotted #000;
+                        }
+                    }
+                }
+            }
+        }
+
+   
+        .hamburger {
+            display: block;
+            cursor: pointer;
+
+            @include media-breakpoint-up(lg) {
+              display: none;
+            }
+        
+            .bar {
+                display: block;
+                width: 25px;
+                height: 3px;
+                margin: 5px auto;
+                -webkit-transition: all 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
+                background-color: #101010;
+                position: relative;
+                z-index: 1;
+                
+            }
+        
+            &.active {
+                .bar {
+                
+                    &:nth-child(2) {
+                        transform: translateY(1px) rotate(45deg);
+                    }
+            
+                    &:nth-child(1) {
+                        opacity: 0;
+                    }
+            
+                    &:nth-child(3) {
+                        transform: translateY(-8px) rotate(-45deg);
+                    }
+                }
+            }
+        }
+        
+}
+}

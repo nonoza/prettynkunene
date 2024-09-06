@@ -1,0 +1,50 @@
+@import '../variable';
+
+.intro-section {
+    padding: 2rem;
+
+    .intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    @include media-breakpoint-up(lg) {
+        padding: 0 20%;
+      }
+
+      h1 {
+        font-size: 2.3rem;
+        line-height: 43px;
+        margin-bottom: 14px;
+        font-weight: 900;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 3.5rem;
+            line-height: 4.5rem;
+          }
+
+          
+      }
+
+      p {
+        letter-spacing: 0.9px;
+    margin-bottom: 2rem;
+      }
+
+      .contact-section {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+
+        div {
+            > a {
+                > i {
+                        font-size: 2.5rem;
+                }
+            }
+        }
+      }
+    }
+}

@@ -1,0 +1,34 @@
+
+//importing files
+@import '../scss/components/menu';
+@import '../scss/components/intro';
+@import '../scss/components/about';
+@import '../scss/components/portfolio';
+@import '../scss/components/footer';
+@import './variable';
+
+//Importing fonts
+@font-face {
+    font-family: 'MidCenturySans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://prettynkunene.co.za/fonts/MidCenturySans-Bold/MidCenturySans-Bold.woff') format('woff'),
+        url('https://prettynkunene.co.za/fonts/MidCenturySans-Bold/MidCenturySans-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://prettynkunene.co.za/fonts/Helvetica/HelveticaNowDisplay-Black.woff') format('woff'),
+        url('https://prettynkunene.co.za/fonts/Helvetica/HelveticaNowDisplay-Black.woff2') format('woff2');
+}
+
+body {
+    font-family:$font-family;
+}
+
+.divider {
+    height: 25vh;
+}
+

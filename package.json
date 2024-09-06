@@ -1,0 +1,15 @@
+{
+  "name": "new-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "sass --watch scss:assets/css"
+  },
+  "author": "Pretty Nonhlanhla Kunene",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.77.8"
+  }
+}
